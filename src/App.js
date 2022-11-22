@@ -57,7 +57,9 @@ function App() {
 
             <div className="section section__temperature">
               <div className="icon">
-                <h3>{`${weather.name}, ${weather.country}`}</h3>
+                <h3>{`${weather.name === "Turan" ? "Đà nẵng" : weather.name}, ${
+                  weather.country
+                }`}</h3>
                 <img src={weather.iconURL} alt="weatherIcon" />
                 <h3>{weather.description}</h3>
               </div>
@@ -72,6 +74,14 @@ function App() {
             <Descriptions weather={weather} units={units} />
           </div>
         )}
+        <div className="member">
+          <ul>
+            <li>manh quan: 20it712</li>
+            <li>manh quan: 20it712</li>
+            <li>manh quan: 20it712</li>
+            <li>manh quan: 20it712</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
