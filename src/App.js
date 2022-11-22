@@ -13,6 +13,8 @@ function App() {
   useEffect(() => {
     const fetchWeatherData = async () => {
       const data = await getFormattedWeatherData(city, units);
+
+      console.log(data);
       setWeather(data);
 
       // dynamic bg
