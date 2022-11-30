@@ -79,9 +79,9 @@ function App() {
         <div className="member">
           <ul>
             <li>manh quan: 20it712</li>
-            <li>manh quan: 20it712</li>
-            <li>manh quan: 20it712</li>
-            <li>manh quan: 20it712</li>
+            <li>le van dung</li>
+            <li>nguyen thanh hung</li>
+            <li>nguyen thanh hung</li>
           </ul>
         </div>
       </div>
